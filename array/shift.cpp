@@ -1,5 +1,5 @@
-class Solution {
-public:
+#include <bits/stdc++.h>
+using namespace std;
   vector<int> shiftRight(vector<int> &arr) {
     int temp = arr[arr.size() - 1];
     int start = 0;
@@ -13,4 +13,3 @@ public:
 
     return arr;
   }
-};
